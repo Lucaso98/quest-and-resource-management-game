@@ -661,6 +661,117 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/ee1549c41142908ab8c99a40d8c3d738125b65ff0e0e775bc09636908282fc3a_tiled_Background Colored Desert.png",
           "name": "tiled_Background Colored Desert.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8a9f8afaf0442f49cd7d5318d31ac6117137ec91d9086e9bdd59b052a4fa71f0_Black Decorated Button_Hovered.png",
+          "name": "Black Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6652cc81d33cb5485e0bf19ed2a92aac70b5c9fb45837762d094c8dbecc30d4d_Black Decorated Button_Idle.png",
+          "name": "Black Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/61997299d1d329fff69772b1111ba7c07b6c0a96a9a17090d2bf2cc31ff08e00_Black Decorated Button_Pressed.png",
+          "name": "Black Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/ArchitectsDaughter.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ArchitectsDaughter.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+          "name": "ArchitectsDaughter.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6d8e529f898d0d1cfc8e94ba10ae0a01e0a31b08bc0d11ec35074a34f3485f55_Transparent Button With White Blue Border_Hovered.png",
+          "name": "Transparent Button With White Blue Border_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Blue Border_Idle.png",
+          "name": "Transparent Button With White Blue Border_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c18e2e342a2cce350f068208df2b7f5549dc600d2201609b1d3d76c497fffd30_Transparent Button With White Blue Border_Pressed.png",
+          "name": "Transparent Button With White Blue Border_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "name": "Kenney Mini Square.ttf"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -671,11 +782,23 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menuinstructions"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
