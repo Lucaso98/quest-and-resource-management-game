@@ -824,6 +824,15 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Flat Social Media Icons/b015b3b7b2594826b7a479958af8866f8e4453a4c613b551c912d8bb9f172e62_Google Play Store.png",
           "name": "Google Play Store.png"
+        "file": "assets/Explosion3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/c693a024a868728da3e9e91c9d23513306582bda6ba10191afc24d6c5667dd5e_Explosion3.png",
+          "name": "Explosion3.png"
         }
       }
     ],
@@ -852,6 +861,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"

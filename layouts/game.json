@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.814188120370991,
+    "zoomFactor": 0.713037763069041,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -90,14 +90,18 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 50,
       "layer": "",
       "name": "Otto",
       "persistentUuid": "218b10cd-18ca-41c2-8ed0-b159f2e1f7ed",
       "width": 0,
       "x": 327,
       "y": 554,
+      "width": 50,
+      "x": 227,
+      "y": 537,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -240,7 +244,7 @@
       "persistentUuid": "5c812a8f-b3ac-4432-9cc4-dfa514b81a60",
       "width": 0,
       "x": 393,
-      "y": 587,
+      "y": 570,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -271,7 +275,7 @@
       "persistentUuid": "479709c8-ff79-45df-9a38-d680a2cd0cae",
       "width": 0,
       "x": 455,
-      "y": 584,
+      "y": 570,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -286,7 +290,7 @@
       "persistentUuid": "ea50c845-7829-4c04-a6b2-309ef61df495",
       "width": 0,
       "x": 514,
-      "y": 588,
+      "y": 570,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -301,7 +305,7 @@
       "persistentUuid": "57e40159-0618-4032-b11e-b389c86fada9",
       "width": 0,
       "x": 567,
-      "y": 589,
+      "y": 570,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -316,7 +320,7 @@
       "persistentUuid": "676faa10-8dc7-46d2-aecc-c71a754eb2aa",
       "width": 0,
       "x": 625,
-      "y": 588,
+      "y": 570,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -331,7 +335,7 @@
       "persistentUuid": "2a4ab552-179c-405e-b31a-8149c712c1ca",
       "width": 0,
       "x": 707,
-      "y": 587,
+      "y": 570,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -346,7 +350,7 @@
       "persistentUuid": "5bb236f4-dc8e-461a-b5f8-81207665b5dc",
       "width": 0,
       "x": 669,
-      "y": 587,
+      "y": 570,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -361,7 +365,7 @@
       "persistentUuid": "29fa500e-c933-4e95-91ed-f706287849e8",
       "width": 0,
       "x": 755,
-      "y": 585,
+      "y": 570,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -376,7 +380,7 @@
       "persistentUuid": "7941b766-fda8-42e7-909a-e3de1949404f",
       "width": 0,
       "x": 807,
-      "y": 586,
+      "y": 570,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -2289,7 +2293,24 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": 10,
+          "LoopDuration": 4,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        }
+      ],
       "animations": [
         {
           "name": "Bigdolla - Lucas F2",
@@ -2355,18 +2376,36 @@
       "effects": [
         {
           "effectType": "Outline",
-          "name": "Effect",
+          "name": "ScoreOutline",
           "doubleParameters": {
-            "padding": 3,
-            "thickness": 6
+            "padding": 6,
+            "thickness": 2
           },
           "stringParameters": {
-            "color": "255;255;255"
+            "color": "65;117;5"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "65;117;5"
           },
           "booleanParameters": {}
         }
       ],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "0 Dolla's.",
       "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
       "textAlignment": "center",
@@ -2437,6 +2476,50 @@
           ]
         }
       ]
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 0,
+      "emitterForceMax": 0,
+      "emitterForceMin": 0,
+      "flow": 2,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "Dollars",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 255,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 255,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 1,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 50,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": 1,
+      "textureParticleName": "Bigdolla - Lucas F2.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -2482,6 +2565,18 @@
         },
         {
           "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Dollars",
+            "Otto.CenterX()",
+            "Otto.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -2504,16 +2599,6 @@
           "actions": [
             {
               "type": {
-                "value": "TextObject::Text::SetFontSize"
-              },
-              "parameters": [
-                "CoinCounter",
-                "+",
-                "2"
-              ]
-            },
-            {
-              "type": {
                 "value": "TextObject::String"
               },
               "parameters": [
@@ -2531,23 +2616,21 @@
                 "AdvancedJump",
                 ""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+            },
             {
               "type": {
-                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                "value": "Tween::AddObjectScaleTween"
               },
               "parameters": [
                 "CoinCounter",
-                "Effect",
-                "\"Effect\"",
-                "\"thickness\"",
-                "15"
+                "Tween",
+                "\"size\"",
+                "1.2",
+                "1.2",
+                "\"bouncePast\"",
+                "500",
+                "",
+                "yes"
               ]
             },
             {
@@ -2560,14 +2643,18 @@
             },
             {
               "type": {
-                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                "value": "Tween::AddObjectScaleTween"
               },
               "parameters": [
                 "CoinCounter",
-                "Effect",
-                "\"Effect\"",
-                "\"thickness\"",
-                "6"
+                "Tween",
+                "\"size\"",
+                "1",
+                "1",
+                "\"bouncePast\"",
+                "500",
+                "",
+                "yes"
               ]
             }
           ]
@@ -2623,6 +2710,9 @@
           ]
         }
       ]
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -2748,6 +2838,10 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
+    },
+    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
     },
@@ -2778,6 +2872,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     },
     {
       "name": "WallJump",
