@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.814188120370991,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -93,7 +93,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "VirtualGuy",
+      "name": "Otto",
       "persistentUuid": "218b10cd-18ca-41c2-8ed0-b159f2e1f7ed",
       "width": 0,
       "x": 227,
@@ -144,8 +144,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "ce2527c9-210e-4db1-b6a2-27158899ba35",
       "width": 1092,
-      "x": 1358,
-      "y": 170,
+      "x": 1342,
+      "y": -30,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,17 +230,190 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "5c812a8f-b3ac-4432-9cc4-dfa514b81a60",
+      "width": 0,
+      "x": 393,
+      "y": 587,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 59,
+      "layer": "UI",
+      "name": "CoinCounter",
+      "persistentUuid": "d5cf0c3c-6e85-4b14-8389-59c364af1688",
+      "width": 567,
+      "x": 687,
+      "y": 98,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "479709c8-ff79-45df-9a38-d680a2cd0cae",
+      "width": 0,
+      "x": 455,
+      "y": 584,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "ea50c845-7829-4c04-a6b2-309ef61df495",
+      "width": 0,
+      "x": 514,
+      "y": 588,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "57e40159-0618-4032-b11e-b389c86fada9",
+      "width": 0,
+      "x": 567,
+      "y": 589,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "676faa10-8dc7-46d2-aecc-c71a754eb2aa",
+      "width": 0,
+      "x": 625,
+      "y": 588,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "2a4ab552-179c-405e-b31a-8149c712c1ca",
+      "width": 0,
+      "x": 707,
+      "y": 587,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "5bb236f4-dc8e-461a-b5f8-81207665b5dc",
+      "width": 0,
+      "x": 669,
+      "y": 587,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "29fa500e-c933-4e95-91ed-f706287849e8",
+      "width": 0,
+      "x": 755,
+      "y": 585,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "7941b766-fda8-42e7-909a-e3de1949404f",
+      "width": 0,
+      "x": 807,
+      "y": 586,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BigDolla",
+      "persistentUuid": "8e71d915-993c-413a-9c75-7d96ddd51f70",
+      "width": 0,
+      "x": 863,
+      "y": 456,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "4b5760aae85a68f03ca4bbfcbc0976099704579ee96f1af16e75017c62f36387",
-      "name": "VirtualGuy",
+      "name": "Otto",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "coinsTaken",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -2091,9 +2264,241 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a94ac499849b357caf2f21ecb21ed5efd21777a622502e445abc4d62b098058b",
+      "name": "BigDolla",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Bigdolla - Lucas F2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bigdolla - Lucas F2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 26
+                      },
+                      {
+                        "x": 2,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "CoinCounter",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 3,
+            "thickness": 6
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "0 Dolla's.",
+      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "textAlignment": "center",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "--Coin interaction--"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Otto",
+            "BigDolla",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "Otto",
+            "coinsTaken",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BigDolla",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "CoinCounter",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "CoinCounter",
+                "=",
+                "Otto.coinsTaken+\" Dolla's!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AdvancedJump::AdvancedJump::ResetAirJumpCounter"
+              },
+              "parameters": [
+                "Otto",
+                "AdvancedJump",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "CoinCounter",
+                "Effect",
+                "\"Effect\"",
+                "\"thickness\"",
+                "15"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "CoinCounter",
+                "Effect",
+                "\"Effect\"",
+                "\"thickness\"",
+                "6"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -2152,6 +2557,38 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
