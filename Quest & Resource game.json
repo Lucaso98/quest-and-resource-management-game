@@ -812,6 +812,19 @@
         "name": "Bigdolla - Lucas F2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Google Play Store.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Google Play Store.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Flat Social Media Icons/b015b3b7b2594826b7a479958af8866f8e4453a4c613b551c912d8bb9f172e62_Google Play Store.png",
+          "name": "Google Play Store.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -831,6 +844,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/shop"
     }
   ],
   "externalEvents": [],

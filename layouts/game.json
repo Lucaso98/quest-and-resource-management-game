@@ -96,8 +96,8 @@
       "name": "Otto",
       "persistentUuid": "218b10cd-18ca-41c2-8ed0-b159f2e1f7ed",
       "width": 0,
-      "x": 227,
-      "y": 537,
+      "x": 327,
+      "y": 554,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -393,6 +393,21 @@
       "x": 863,
       "y": 456,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "GooglePlayStore",
+      "persistentUuid": "17506903-b6cd-47d6-ac0b-0d14dea2475b",
+      "width": 0,
+      "x": 140,
+      "y": 489,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2361,6 +2376,67 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "1fd132cca3a112afae925f15fd15ae194ca949f10aa7f1750896241c9f5c2d11",
+      "name": "GooglePlayStore",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Google Play Store.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 4
+                      },
+                      {
+                        "x": 120,
+                        "y": 4
+                      },
+                      {
+                        "x": 120,
+                        "y": 124
+                      },
+                      {
+                        "x": 8,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2494,6 +2570,56 @@
                 "6"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "--Shop interaction--"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Otto",
+            "GooglePlayStore",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Shop\"",
+            ""
           ]
         }
       ]
