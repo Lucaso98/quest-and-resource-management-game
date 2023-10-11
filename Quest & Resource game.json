@@ -825,6 +825,141 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/c693a024a868728da3e9e91c9d23513306582bda6ba10191afc24d6c5667dd5e_Explosion3.png",
           "name": "Explosion3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Google Play Store.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Google Play Store.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Flat Social Media Icons/b015b3b7b2594826b7a479958af8866f8e4453a4c613b551c912d8bb9f172e62_Google Play Store.png",
+          "name": "Google Play Store.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water flat bright surface.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water flat bright surface.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/4716585ab19a8329c756fb0ab32869a06b78823fee2e40ed4a3bb1c11de6b0a9_water flat bright surface.png",
+          "name": "water flat bright surface.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water flat bright surface2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "water flat bright surface",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water flat bright surface3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "water flat bright surface2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Booze - Lucas F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Booze - Lucas F.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Booze - Lucas F.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Booze - Lucas F.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Booze - Lucas F2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Booze - Lucas F2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Booze - Lucas F2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Booze - Lucas F2.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Booze - Lucas F2.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Booze - Lucas F2.png3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "pick_up_rings.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pick_up_rings.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cigar - Lucas F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cigar - Lucas F.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cigar - Lucas F.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Cigar - Lucas F.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cigar - Lucas F.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Cigar - Lucas F.png3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cigar - Lucas F.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Cigar - Lucas F.png4",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
