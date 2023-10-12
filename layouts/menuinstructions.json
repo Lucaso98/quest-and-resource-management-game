@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.7876290101673762,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,13 +28,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 254,
+      "height": 245,
       "layer": "",
       "name": "NewText",
       "persistentUuid": "c9abcf51-079f-4072-a954-840d670b7adf",
       "width": 1091,
-      "x": 84,
-      "y": 206,
+      "x": 118,
+      "y": 27,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -42,15 +42,32 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 71,
       "layer": "",
       "name": "TransparentButtonWithWhiteBlueBorder",
       "persistentUuid": "6b7694c8-e56f-4726-8776-1efa1e5b1754",
-      "width": 0,
-      "x": 116,
-      "y": 597,
+      "width": 213,
+      "x": 21,
+      "y": 604,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 722,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "9067d058-17db-42ce-beb5-dfe134a7eb29",
+      "width": 1286,
+      "x": -2,
+      "y": 0,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -69,10 +86,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Use arrowkeys & Spacebar.\n\nGood luck!",
+      "string": "Use arrowkeys & Spacebar for movement.\n\nUse \"E\" & mouse pointer for shop.\n\nGood luck!",
       "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
       "textAlignment": "center",
-      "characterSize": 120,
+      "characterSize": 70,
       "color": {
         "b": 0,
         "g": 0,
@@ -142,6 +159,68 @@
           "width": 192
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "menu_2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "menu_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6400,
+                        "y": 0
+                      },
+                      {
+                        "x": 6400,
+                        "y": 3600
+                      },
+                      {
+                        "x": 0,
+                        "y": 3600
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -218,6 +297,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
