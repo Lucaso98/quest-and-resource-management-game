@@ -1511,6 +1511,58 @@
         "userAdded": true
       },
       {
+        "alwaysLoaded": false,
+        "file": "main_character_jump_2_medium.gif",
+        "kind": "image",
+        "metadata": "",
+        "name": "main_character_jump_2_medium.gif",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/main_character_jump_2_medium.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "main_character_jump_2_medium",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/main_character_jump_2_medium2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "main_character_jump_2_medium2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/main_character_jump_2_medium3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "main_character_jump_2_medium3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/main_character_jump_2_medium4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "main_character_jump_2_medium4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/main_character_jump_2_medium5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "main_character_jump_2_medium5",
+        "smoothed": false,
+        "userAdded": false
         "file": "Jazzy_-_Intro.wav",
         "kind": "audio",
         "metadata": "",
