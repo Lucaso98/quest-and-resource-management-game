@@ -1,13 +1,13 @@
 {
-  "b": 66,
+  "b": 164,
   "disableInputWhenNotFocused": true,
   "mangledName": "Game",
   "name": "Game",
-  "r": 66,
+  "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 66,
+  "v": 164,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
