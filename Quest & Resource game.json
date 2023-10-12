@@ -1509,6 +1509,36 @@
         "name": "Booze - Lucas F2.png4",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "Jazzy_-_Intro.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jazzy_-_Intro.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Jazzy_-_Background_Music.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jazzy_-_Background_Music.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Jazzy_-_Background_Music.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jazzy_-_Background_Music.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
