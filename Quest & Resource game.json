@@ -1563,6 +1563,24 @@
         "name": "main_character_jump_2_medium5",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menu_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"menu_1.png\",\"extension\":\".png\"}",
+        "name": "menu_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menu_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"menu_2.png\",\"extension\":\".png\"}",
+        "name": "menu_2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
