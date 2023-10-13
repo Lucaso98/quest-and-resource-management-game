@@ -1581,6 +1581,106 @@
         "name": "menu_2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bord_bank_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bord_bank_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shop-counter-left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shop-counter-left.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shop-counter-right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shop-counter-right.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Jazzy_-_Background_Music.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jazzy_-_Background_Music.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background_outdoors.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background_outdoors.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tapeter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tapeter.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "painting_small.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "painting_small.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "painting_big.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "painting_big.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "block_sten.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "block_sten.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "the_bank_left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "the_bank_left.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "the_bank_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "the_bank_right.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
